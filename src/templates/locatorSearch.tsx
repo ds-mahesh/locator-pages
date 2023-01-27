@@ -13,19 +13,19 @@ export const getPath: GetPath<TemplateProps> = () => {
   return `/locatorSearch`;
 };
 
-/*
-export const config: TemplateConfig = {
-  stream: {
-    $id: "locatorSearch",
-    localization: {
-      locales: ["en"],
-      primary: false,
-    },
-    filter: {},
-    fields: []
-  },
-};
-*/
+
+// export const config: TemplateConfig = {
+//   stream: {
+//     $id: "locatorSearch",
+//     localization: {
+//       locales: ["en"],
+//       primary: false,
+//     },
+//     filter: {},
+//     fields: []
+//   },
+// };
+
 export const getHeadConfig: GetHeadConfig<TemplateRenderProps> = ({relativePrefixToRoot, path, document}): HeadConfig => {
   return {
     title: document.name,

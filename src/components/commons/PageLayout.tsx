@@ -15,11 +15,14 @@ type Props = {
     children,
   }: Props) => {
     return (
+      <>
         <div className="min-h-screen">
-            <Header />
+      <Header/>
+            
                 {children}
             <Footer />
         </div>
+        </>
     );
   };
 

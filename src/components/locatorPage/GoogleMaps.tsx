@@ -119,8 +119,8 @@ function UnwrappedGoogleMaps({
   let openMapCenter = '';
   let openMapZoom = '';
   let openInfoWindow = false;
-  let searchCenter = null;
-  let searchZoom = null;
+  let searchCenter = true;
+  let searchZoom = true;
   let stopAnimation = false;
   let currentMapZoom = 0;
   let infoWindow = new google.maps.InfoWindow();
@@ -307,7 +307,12 @@ function Infowindow(i:Number,result:any):void{
         (
         <div className="markerContent w-48 md:w-[350px] font-universpro font-normal text-darkgrey text-xs md:text-sm leading-6">
         <div className="nameData font-bold text-sm md:text-base">{result.name}</div>
-        </div>
+        <div className="nameData font-bold text-sm md:text-base">{result.rawData.address.line1}</div>
+        <div className="nameData font-bold text-sm md:text-base">{result.rawData.address.line2}</div>
+        <div className="nameData font-bold text-sm md:text-base">{result.rawData.address.city}</div>
+        <div className="nameData font-bold text-sm md:text-base">{result.rawData.address.region}</div>
+        <div className="nameData font-bold text-sm md:text-base">{result.rawData.address.postalCode}</div>
+       </div>
         );
     let string=renderToString(MarkerContent);    
     infoWindow.setContent(string); 
