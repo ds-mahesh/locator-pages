@@ -35,11 +35,12 @@ const LocationCard: CardComponent<Location> = ({ result }) => {
     <>
     <div className={`location result`} id={`result-${result.index}`}>
      <div>{metersToMiles(result.distance)} miles</div> 
-      <h3 className="">{result.rawData.name} 
-      </h3>
+       <a href={result.rawData.slug}><h3 className="">{result.rawData.name} 
+      </h3></a>
       {/* <p className="text-sm text-slate-700">{address.line1}</p>
       <p className="text-sm text-slate-700">{address.city}, {address.region}, {address.postalCode} </p> */}
       <Address address={address} />
+      <div>{result.rawData.mainPhone}</div>
       <button  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"><GetDirection/></button>
       <button>Details</button>
     </div >

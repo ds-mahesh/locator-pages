@@ -144,7 +144,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gird-cols-1 gap-4 flex justify-center items-center">
           <div className="md:ml-auto md:mb-6">
             <p className="">
-              <strong>Sign up for our newsletter</strong>
+              <strong>Sign Up For Our Web-Site</strong>
             </p>
           </div>
 
@@ -191,74 +191,83 @@ const Footer = () => {
 
     <div className="grid lg:grid-cols-4 md:grid-cols-2">
       <div className="mb-6">
-        <h5 className="uppercase font-bold mb-2.5">Links</h5>
+        <h4 className="uppercase font-bold mb-2.5">Degital Business</h4>
 
         <ul className="list-none mb-0">
           <li>
+            <a href="#!" className="text-white">Application SupporT & Maintenance</a>
+          </li>
+          <li>
+            <a href="#!" className="text-white">Digital Application & Platforms</a>
+          </li>
+          <li>
+            <a href="#!" className="text-white">Data Analytics</a>
+          </li>
+          <li>
+            <a href="#!" className="text-white">Software as a Service</a>
+          </li>
+          <li>
+            <a href="#!" className="text-white">Enterprice Applications</a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="mb-6">
+        <h5 className="uppercase font-bold mb-2.5">Services</h5>
+
+        <ul className="list-none mb-0">
+          <li>
+            <a href="#!" className="text-white">Hardware Design</a>
+          </li>
+          <li>
+            <a href="#!" className="text-white">Software Design</a>
+          </li>
+          <li>
+            <a href="#!" className="text-white">Website Design</a>
+          </li>
+          <li>
+            <a href="#!" className="text-white">Automation</a>
+          </li>
+          <li>
+            <a href="#!" className="text-white">Artificial Intelligence</a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="mb-6">
+        <h5 className="uppercase font-bold mb-2.5">About Us</h5>
+
+        <ul className="list-none mb-0">
+          <li>
+            <a href="#!" className="text-white">About Us Overview</a>
+          </li>
+          <li>
+            <a href="#!" className="text-white">Investors Relations</a>
+          </li>
+          <li>
+            <a href="#!" className="text-white">Global Scale</a>
+          </li>
+          <li>
+            <a href="#!" className="text-white">Leadership</a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="mb-6">
+        <h4 className="uppercase font-bold mb-2.5">Legel</h4>
+
+        <ul className="list-none mb-0">
+        <li>
             <a href="#!" className="text-white">Contect-Us</a>
           </li>
           <li>
-            <a href="#!" className="text-white">Link 2</a>
+            <a href="#!" className="text-white">Privacy Policy</a>
           </li>
           <li>
-            <a href="#!" className="text-white">Link 3</a>
+            <a href="#!" className="text-white">Term Of Use</a>
           </li>
           <li>
-            <a href="#!" className="text-white">Link 4</a>
-          </li>
-        </ul>
-      </div>
-
-      <div className="mb-6">
-        <h5 className="uppercase font-bold mb-2.5">Links</h5>
-
-        <ul className="list-none mb-0">
-          <li>
-            <a href="#!" className="text-white">Link 1</a>
-          </li>
-          <li>
-            <a href="#!" className="text-white">Link 2</a>
-          </li>
-          <li>
-            <a href="#!" className="text-white">Link 3</a>
-          </li>
-          <li>
-            <a href="#!" className="text-white">Link 4</a>
-          </li>
-        </ul>
-      </div>
-
-      <div className="mb-6">
-        <h5 className="uppercase font-bold mb-2.5">Links</h5>
-
-        <ul className="list-none mb-0">
-          <li>
-            <a href="#!" className="text-white">Link 1</a>
-          </li>
-          <li>
-            <a href="#!" className="text-white">Link 2</a>
-          </li>
-          <li>
-            <a href="#!" className="text-white">Link 3</a>
-          </li>
-          <li>
-            <a href="#!" className="text-white">Link 4</a>
-          </li>
-        </ul>
-      </div>
-
-      <div className="mb-6">
-        <h5 className="uppercase font-bold mb-2.5">Help</h5>
-
-        <ul className="list-none mb-0">
-          <li>
-            <a href="#!" className="text-white">Support</a>
-          </li>
-          <li>
-            <a href="#!" className="text-white">Link 2</a>
-          </li>
-          <li>
-            <a href="#!" className="text-white">Link 3</a>
+            <a href="#!" className="text-white">Sitemap</a>
           </li>
           
         </ul>
@@ -268,7 +277,7 @@ const Footer = () => {
 
   <div className="text-center p-4" >
     © 2021 Copyright:
-    <a className="text-white" href="https://tailwind-elements.com/">Tailwind Elements</a>
+    <a className="text-white" href="https://tailwind-elements.com/">HCL</a>
   </div>
 </footer>
       </>
